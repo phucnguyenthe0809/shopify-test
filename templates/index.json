@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -66,71 +75,35 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
-    }
-  },
-  "team_section": {
-    "type": "team",
-    "blocks": {
-      "member_eyDQjP": {
-        "type": "member",
-        "settings": {
-          "photo": "shopify:\/\/shop_images\/fixed-height_sec.png",
-          "name": "Julian Jameson",
-          "position": "Profession",
-          "facebook_url": "https:\/\/www.facebook.com\/",
-          "instagram_url": "https:\/\/www.instagram.com\/",
-          "twitter_url": "https:\/\/www.twitter.com\/"
-        }
-      },
-      "member_x4bMif": {
-        "type": "member",
-        "settings": {
-          "photo": "shopify:\/\/shop_images\/fixed-height_sec_ba7b7c92-71b1-4c1d-82f7-a75c5478d894.png",
-          "name": "Julian Jameson 1",
-          "position": "Profession 1",
-          "facebook_url": "",
-          "instagram_url": "",
-          "twitter_url": ""
-        }
-      },
-      "member_yRNKFP": {
-        "type": "member",
-        "settings": {
-          "photo": "shopify:\/\/shop_images\/fixed-height_sec_74f05990-504f-4525-a37a-cc150b2f4a2c.png",
-          "name": "Julian Jameson 2",
-          "position": "Profession 2",
-          "facebook_url": "",
-          "instagram_url": "",
-          "twitter_url": ""
-        }
-      },
-      "member_y9XyDW": {
-        "type": "member",
-        "settings": {
-          "photo": "shopify:\/\/shop_images\/fixed-height_sec_85b57f54-7fbb-4c16-b79a-6ae8b2ebd756.png",
-          "name": "Julian Jameson 3",
-          "position": "Profession 3",
-          "facebook_url": "",
-          "instagram_url": "",
-          "twitter_url": ""
-        }
-      }
     },
-    "block_order": [
-      "member_eyDQjP",
-      "member_x4bMif",
-      "member_yRNKFP",
-      "member_y9XyDW"
-    ],
-    "settings": {
-      "team_label": "Team",
-      "team_title": "Get Quality Education",
-      "team_content": "Problems trying to resolve the conflict between the two major realms <br> of Classical physics: Newtonian mechanics"
+    "team_C8Y3zq": {
+      "type": "team",
+      "blocks": {
+        "member_dNn4Fx": {
+          "type": "member",
+          "settings": {
+            "photo": "shopify:\/\/shop_images\/fixed-height_sec.png",
+            "name": "Julian Jameson",
+            "position": "Professtion",
+            "facebook_url": "https:\/\/www.facebook.com\/",
+            "instagram_url": "https:\/\/www.instagram.com\/",
+            "twitter_url": "https:\/\/www.twitter.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "member_dNn4Fx"
+      ],
+      "settings": {
+        "team_label": "Team",
+        "team_title": "Get Quality Education",
+        "team_content": "Problems trying to resolve the conflict between the two major realms <br> of Classical physics: Newtonian mechanics"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "team_section"
+    "team_C8Y3zq"
   ]
 }
