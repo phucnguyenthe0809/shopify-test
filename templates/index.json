@@ -118,9 +118,9 @@
             "photo": "shopify:\/\/shop_images\/fixed-height_sec_85b57f54-7fbb-4c16-b79a-6ae8b2ebd756.png",
             "name": "Julian Jameson",
             "position": "Professtion",
-            "facebook_url": "",
-            "instagram_url": "",
-            "twitter_url": ""
+            "facebook_url": "https:\/\/www.facebook.com\/",
+            "instagram_url": "https:\/\/www.instagram.com\/",
+            "twitter_url": "https:\/\/www.twitter.com"
           }
         }
       },
