@@ -89,10 +89,22 @@
             "instagram_url": "https:\/\/www.instagram.com\/",
             "twitter_url": "https:\/\/www.twitter.com\/"
           }
+        },
+        "member_UjPERz": {
+          "type": "member",
+          "settings": {
+            "photo": "shopify:\/\/shop_images\/fixed-height_sec_ba7b7c92-71b1-4c1d-82f7-a75c5478d894.png",
+            "name": "Julian Jameson",
+            "position": "Professtion",
+            "facebook_url": "",
+            "instagram_url": "",
+            "twitter_url": ""
+          }
         }
       },
       "block_order": [
-        "member_dNn4Fx"
+        "member_dNn4Fx",
+        "member_UjPERz"
       ],
       "settings": {
         "team_label": "Team",
