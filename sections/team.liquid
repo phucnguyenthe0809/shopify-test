@@ -1,0 +1,84 @@
+<section id="team">
+  <span class="label">{{ section.settings.team_label }}</span>
+  <h2 class="title">{{ section.settings.team_title }}</h2>
+  <p class="content">{{ section.settings.team_content }}</p>
+  <div class="members">
+    <div class="member">
+      <img class="member__photo" src="" alt="">
+      <div class="information">
+        <p class="member__name">phuc</p>
+        <p class="member__position">position</p>
+        <div class="member__social">
+          <a href=""><img src="" alt=""></a>
+          <a href=""><img src="" alt=""></a>
+          <a href=""><img src="" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Team",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "team_label",
+      "label": "label",
+      "default": "Team"
+    },
+    {
+      "type": "text",
+      "id": "team_title",
+      "label": "Title",
+      "default": "Get Quality Education"
+    },
+    {
+      "type": "textarea",
+      "id": "team_content",
+      "label": "Content",
+      "default": "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics"
+    }
+  ],
+  "max_blocks": 5,
+  "blocks": [
+    {
+      "name": "Member",
+      "type": "member",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "photo",
+          "label": "Member photo"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "position",
+          "label": "Project manager"
+        },
+        {
+          "type": "url",
+          "id": "facebook_url",
+          "label": "Facebook URL"
+        },
+        {
+          "type": "url",
+          "id": "instagram_url",
+          "label": "Instagram URL"
+        },
+        {
+          "type": "url",
+          "id": "twitter_url",
+          "label": "Twitter URL"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
