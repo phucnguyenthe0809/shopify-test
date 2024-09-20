@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+#team.container {
+    width: 1050px;
+    margin: 50px auto 50px auto;
+}
+
+#team img {
+    max-width: 100%;
+}
+
+#team > .label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #96BB7C;
+    margin-bottom: 10px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+#team > .title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+
+#team > .content {
+    margin: 0 0 50px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+#team .members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#team .members .member {
+    width: calc((100% - 90px)/4);
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#team .members .member .member__photo {
+    border-radius: 20px 20px 0 0;
+    aspect-ratio: 238/231;
+    display: block;
+}
+
+.information {
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.information p {
+    margin: 0;
+}
+.information > .member__name{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.information > .member__position{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+}
+.information >.member__social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.information >.member__social svg{
+    width: 24px;
+    height: 24px;
+}
+@media only screen and (max-width: 1024px) {
+    #team.container{
+        padding: 50px;
+    }
+
+}
+@media only screen and (max-width: 990px) {
+    #team.container{
+        width: auto;
+    }
+    #team .members .member {
+        width: calc((100% - 30px) / 2);
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #team.container{
+        padding: 20px;
+    }
+    .information{
+        padding: 10px;
+    }
+    .information>.member__name{
+        font-size: 13px;
+    }
+    .information>.member__social svg {
+        width: 18px;
+        height: 18px;
+    }
+}
